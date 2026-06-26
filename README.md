@@ -21,6 +21,7 @@ For the ultimate performance, we highly recommend using this mod alongside:
 - **C2ME (Concurrent Chunk Management Engine):** Since Decoupled isolates the server into its own process, C2ME allows that background server to generate chunks using extreme multi-threading without *ever* stuttering your client. The difference in chunk loading speed is colossal!
 - **Lithium:** Further optimizes the background server's tick rate and AI.
 - **Sodium:** Keeps your client-side rendering buttery smooth while Decoupled handles the server logic.
+- **EasyAuth / FastLogin:** If you want to play with both Premium and Cracked friends simultaneously, just drop one of these mods into your folder. Since Decoupled runs a real dedicated server, these mods will perfectly restore skins and Mojang UUIDs for your premium friends while still letting offline players join!
 
 ## Known Limitations
 - Mod configs altered via Mod Menu on the client do not sync to the background server in real-time. You must restart the world to apply server-side config changes.
