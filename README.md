@@ -16,6 +16,12 @@ By spinning up the singleplayer world as a true Dedicated Server running in the 
 - **Memory:** Minimum of 12-16 GB of system RAM. Running two JVMs simultaneously increases the base memory footprint.
 - **CPU:** 6-core processor or better recommended for optimal OS-level context switching between processes.
 
+## Recommended Mods (Synergy)
+For the ultimate performance, we highly recommend using this mod alongside:
+- **C2ME (Concurrent Chunk Management Engine):** Since Decoupled isolates the server into its own process, C2ME allows that background server to generate chunks using extreme multi-threading without *ever* stuttering your client. The difference in chunk loading speed is colossal!
+- **Lithium:** Further optimizes the background server's tick rate and AI.
+- **Sodium:** Keeps your client-side rendering buttery smooth while Decoupled handles the server logic.
+
 ## Known Limitations
 - Mod configs altered via Mod Menu on the client do not sync to the background server in real-time. You must restart the world to apply server-side config changes.
 - Requires raw system resources. Not recommended for old dual-core laptops with 8 GB of RAM.
