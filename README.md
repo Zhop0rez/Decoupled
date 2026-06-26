@@ -15,8 +15,6 @@ By spinning up the singleplayer world as a true Dedicated Server running in the 
 ## Requirements
 - **Memory:** Minimum of 12-16 GB of system RAM. Running two JVMs simultaneously increases the base memory footprint.
 - **CPU:** 6-core processor or better recommended for optimal OS-level context switching between processes.
-- **Fabric Loader:** `0.19.3` or higher.
-- **Minecraft:** `1.21.x`
 
 ## Known Limitations
 - Mod configs altered via Mod Menu on the client do not sync to the background server in real-time. You must restart the world to apply server-side config changes.
@@ -26,4 +24,4 @@ By spinning up the singleplayer world as a true Dedicated Server running in the 
 Simply join your singleplayer world. The mod will automatically print the assigned background server port in your chat. Share your IP address (Local/Hamachi/Radmin) and that port with your friends!
 
 ## License
-Licensed under CC0-1.0. Feel free to use, modify, and distribute.
+MIT
