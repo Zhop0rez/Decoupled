@@ -1,37 +1,34 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "perfectlan",
 	"version": "${version}",
-	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Decoupled",
+	"description": "True asynchronous singleplayer. Runs the integrated server in a separate background process for extreme performance and smooth 1% lows.",
 	"authors": [
-		"Me!"
+		"Zhoporez"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
+	"contact": {},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/perfectlan/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.perfectlan.PerfectLAN"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.perfectlan.client.PerfectLANClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"perfectlan.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "perfectlan.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
 		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.1.2",
+		"minecraft": "~26.2",
 		"java": ">=25",
 		"fabric-api": "*"
 	}

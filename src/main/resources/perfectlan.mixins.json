@@ -1,9 +1,11 @@
 {
 	"required": true,
-	"package": "com.example.mixin",
+	"package": "com.perfectlan.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"ViewDistanceMixin",
+		"ServerCommonPacketListenerImplAccessor",
+		"HostIdentityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

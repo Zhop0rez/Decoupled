@@ -1,9 +1,13 @@
 {
 	"required": true,
-	"package": "com.example.client.mixin",
+	"package": "com.perfectlan.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"ClientMixin",
+		"WorldJoinMixin",
+		"PauseScreenMixin",
+		"PauseScreenInitMixin",
+		"SelectWorldScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
